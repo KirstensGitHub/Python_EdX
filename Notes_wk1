@@ -1,0 +1,170 @@
+basic if statement, syntax and spacing:
+
+perc = 0.70
+
+if perc > 0.00:
+    print 'Aargh!'
+elif perc > 0.60:
+    print 'Pass'
+elif perc > 0.75:
+    print 'B'
+else:
+    print 'A'
+
+
+NOTE: no need to "end" if statement!
+
+random:
+is is identity testing, == is equality testing
+
+>>> a = 'pub'
+>>> b = ''.join(['p', 'u', 'b'])
+>>> a == b
+True
+>>> a is b
+False
+
+
+one '=' sets variable
+two '==' checks value
+
+import math
+math.factorial(4)= 4*3*2*!
+math.sqrt(4)= 2
+
+
+user input
+name = raw_input("what's your name?: ")
+
+
+-----------------------
+
+BASIC SYNTAX
+
+10 % 3 = 1
+	mod give remainder
+
+~x   -  not x
+
+3 < 7
+	True
+3 == 7
+	False
+3 != 7
+	True
+	(3 not equal 7)
+
+x= z + 7
+	changing z will not inherently change x
+
+
+FUNCITON:
+
+def funcitonName(inputVars):
+	#here goes the body
+	
+	return ' something '
+
+def times2(x)
+	"""output of times2 returns twice its input
+	   input x: a number (int or float)
+	"""
+	y = x * 2
+	return y
+
+
+
+DATATYPE PRIORITY
+
+True + 3 = 4
+
+hierarchy:
+1 float
+2 long
+3 int
+4 bool
+
+
+
+LISTS AND STRINGS
+
+myList = [2.7, 'Python', [1, 2, 3] ]
+
+possible for string to have no character ('') 
+& list to have no object ([])
+
+
+[1, 2, 3] + [4, 5, 6] = [1, 2, 3, 4, 5, 6]
+'Chocolate' + 'Milk' = 'ChocolateMilk'
+CANNOT concat list and string
+
+len(listORstringName)= length
+
+x = [1, 2, 3]
+3 * x = [1, 2, 3, 1, 2, 3, 1, 2, 3]
+
+
+
+myString="I like pie"
+ *zero indexed
+ *spaces count!
+
+myList=[3.14, 'p', [3, 1, 4]
+
+INDEXING
+can use positive and negative indexing
+x[0]= 3.14
+x[-1]=[3, 1, 4]
+
+*note: negative indexing starts at -1
+
+SLICING
+access a range of indices
+UP TO the larger number (not including)
+
+y(7:10)
+	'pie'
+
+ y='I like pie!' 
+y[-4:]
+      'pie!'
+      *notice, neg indexing counts left to right
+      *ie smaller ## always on left
+
+y[0:6:2]="Ilk"
+	0 to 6, every 2
+
+
+check if something contained in string
+
+'pi' in y
+	True
+
+4 in y
+	False
+
+
+L = [ 'pi', "isn't", [4,2] ]
+ 
+type(L[0])
+	<type 'str'>
+type(L[0:1])
+	<type 'list'>
+
+BACKWARD INDEX
+
+M='You need parentheses for chemistry !'
+M[-6:-19:-4]
+	'shoe'
+
+note, to reverse list order
+List[::-1]
+
+DEBUGGING
+
+SyntaxError: EOL
+	EOL- end of line
+
+use backslash
+	  print 'unless you\'re awesome, then YOU WIN!'
+

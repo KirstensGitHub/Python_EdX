@@ -1,0 +1,14 @@
+#pico bot will cover every part of the floor, until finished. 
+#must work from any start point
+
+# NEWS 
+
+0 x*** -> N 0
+0 N*** -> X 1
+1 Nx** -> E 1
+1 NE*x -> S 2
+2 ***x -> S 2
+2 ***S -> X 3
+3 **xS -> W 4
+4 x*** -> N 4
+4 N*** -> W 2
