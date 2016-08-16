@@ -1,0 +1,33 @@
+numpy's main object is the homogeneous multidimensional array
+table of elements of same type, indexed by tuple of (+) ints
+
+axes=dimensions
+rank=number of axes
+
+example:
+x=[[1., 0., 0.,], [0.,1.,2.]]
+
+rank-2
+second axis, length-3
+
+
+
+convert matlab variable into numpy variabl
+
+in matlab:
+save('filename.mat', 'variable1', variable2')
+
+in python:
+import scipy.io
+scipy.io.loadmat('filename.mat')
+
+*if you do this with a matlab array, you will get a dictionary
+*variable name-first key, variable data- first value
+
+
+
+to make an array 
+z=np.array([1, 2, 3, 4], [5, 6, 7, 8])
+
+
+
